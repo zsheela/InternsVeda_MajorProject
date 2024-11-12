@@ -1,0 +1,294 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="./logo/s logo.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <style>
+          
+          .container {
+            text-align: center;
+            font-size: 2rem;
+            color: #f5f1f1;
+          }
+          .text {
+            display: inline-block;
+            opacity: 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+            transition: opacity 0.5s ease;
+          }
+          .about-section, .profile-section {
+            background-color: #333;
+            color: #fff;
+            padding: 60px 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            margin: 40px auto;
+            width: 85%;
+            height: 100%;
+            padding-top: 100px;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .about-section h4, .profile-section h4 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .about-section h5, .profile-section h5 {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .about-section, .profile-section {
+            position: relative;
+            z-index: 10;
+            transform: translateY(-20px);
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #ddd;
+        }
+
+      </style>
+    </head>
+    <body>
+      <header>
+        <img src="./images/logo.png" alt="Logo" height="100px" width="100px">
+        <ul>
+            <a href="#home"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#profile"><li>Profile</li></a>
+            <a href="#education"><li>Education</li></a>
+            <a href="#skills"><li>Skills</li></a>
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#contact"><li>Contact</li></a>
+        </ul>
+    </header>
+        
+        
+    <main>
+      <section id="home" class="homepage">
+        <img src="./images/main.jfif" alt="Image" class="pic" height="450px" width="450px" style="float: right; ">
+        <div class="mainheading">
+          <h1 style="padding-top: 150px; padding-left: 100px;"><span style="color: red;">Hey! </span>I'm Sheela Boorla<br><span style="color: red;">Web Developer</span></h1>
+        </div>    
+      </section> <br><br><br>
+
+      <section id="about" class="about-section">
+        <div class="content-container">
+            <h4><b><u>About</u></b></h4>
+            <h5>My name is Sheela Boorla. I'm from Telangana. I'm currently pursuing a Master's in Computer Applications from Lovely Professional University, Punjab. I hold a Bachelor's degree in Computer Science from MIMS Degree College affiliated with Kakatiya University, where I specialized in web development technologies and frameworks. Throughout my career, I've continuously expanded my skills through self-learning and staying updated with the latest industry trends.</h5>
+        </div>
+    </section>
+    
+    <section id="profile" class="profile-section">
+        <div class="content-container">
+            <h4><b><u>Profile</u></b></h4>
+            <h5>A passionate and dedicated web developer with a solid foundation in programming, specializing in front-end technologies like HTML, CSS, JavaScript, and frameworks like React and Bootstrap. Currently pursuing an MCA, I hold a Bachelor’s degree in Computer Science from MIMS Degree College, affiliated with Kakatiya University, where I developed expertise in web development and backend frameworks like Flask. Known for my self-motivated learning approach, I stay updated with the latest industry trends to continuously enhance my technical and problem-solving skills.</h5>
+        </div>
+    </section>
+    
+      <section id="education" class="education">
+          <h4><b><u>Education</u></b></h4>
+          
+          <div class="mb-4">
+            <h6>MCA - Lovely Professional University, Punjab</h6>
+            <p>Currently pursuing Master of Computer Applications</p>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">CGPA: 8.8</div>
+            </div>
+          </div>
+      
+          <div class="mb-4">
+            <h6>Bachelor's in Computer Science - MIMS Degree College, Telangana</h6>
+            <p>Graduated with a focus on web development technologies and frameworks. Affiliated with Kakatiya University.</p>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 86%" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">CGPA: 8.61</div>
+            </div>
+          </div>
+      
+          <div class="mb-4">
+            <h6>Higher Secondary - Alphores Junior college, Telangana</h6>
+            <p>Completed higher secondary education with a strong foundation in science and technology.</p>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 90.1%" aria-valuenow="90.1" aria-valuemin="0" aria-valuemax="100">CGPA: 9.01</div>
+            </div>
+          </div>
+      
+          <div class="mb-4">
+            <h6>Schooling - Good Shepherd School, Telangana</h6>
+            <p>Completed primary and secondary schooling with academic excellence.</p>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">CGPA: 9.0</div>
+            </div>
+          </div>
+      </section>
+
+      <section id="skills">
+
+        <h4><b><u>Programming Skills</u></b></h4>
+        <ul>
+          <li><strong>HTML & CSS</strong>: Expertise in creating responsive web pages, understanding of Flexbox and Grid layouts, and handling media and forms effectively.</li>
+          <li><strong>JavaScript</strong>: Proficient in JavaScript fundamentals and ES6+ features, with experience in creating dynamic, interactive web content.</li>
+          <li><strong>React</strong>: Knowledge of both basic and advanced React concepts, including JSX, Babel, Webpack, state management, and server communication.</li>
+          <li><strong>Bootstrap</strong>: Skilled in using Bootstrap for visually appealing layouts, navigation bars, grids, modals, and other UI components.</li>
+          <li><strong>Python</strong>: Familiarity with Python fundamentals, especially in data analysis, data wrangling, and data visualization using libraries like Pandas, NumPy, Matplotlib, and Seaborn.</li>
+          <li><strong>Java</strong>: Practical experience in Java programming, with a focus on problem-solving and algorithms (e.g., removing duplicates from arrays).</li>
+          <li><strong>C++</strong>: Strong foundation in C++ programming, with focus areas in data structures and algorithms.</li>
+        </ul>
+    
+        <h4 class="mt-4"><b><u>Soft Skills</u></b></h4>
+        <ul>
+          <li><strong>Communication</strong>: Strong ability to convey ideas clearly, collaborate effectively with teams, and explain technical concepts to non-technical stakeholders.</li>
+          <li><strong>Teamwork</strong>: Ability to work well within a team, demonstrating reliability, active listening, and willingness to contribute to team goals.</li>
+          <li><strong>Problem-Solving</strong>: Excellent problem-solving skills with a methodical approach, especially in programming challenges and debugging.</li>
+          <li><strong>Adaptability</strong>: Versatile and able to quickly learn new technologies or tools as required by the project or industry trends.</li>
+          <li><strong>Time Management</strong>: Skilled in prioritizing tasks and managing time efficiently, ensuring project deadlines are met without sacrificing quality.</li>
+          <li><strong>Creativity</strong>: A creative approach to coding and design, bringing innovative ideas to web development and project solutions.</li>
+        </ul>
+      </div>
+
+
+      </section>
+
+      <section id="projects" class="projects my-5">
+        <div class="container">
+            <h4 class="text-center"><b><u>Projects</u></b></h4>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
+                
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Dice Game</b></h5>
+                            <p class="card-text">A fun and interactive dice game built using HTML, CSS, and JavaScript. Players can roll dice, accumulate points, and compete in turns. The game includes random dice rolls, score tracking, and more.</p>
+                            <p><strong>Skills Demonstrated:</strong> JavaScript fundamentals, DOM manipulation, event handling, conditional logic.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Chat Application</b></h5>
+                            <p class="card-text">A real-time chat application using WebSockets, where users can join different chat rooms, send and receive messages instantly. Built using HTML, CSS, JavaScript, and Node.js for backend.</p>
+                            <p><strong>Skills Demonstrated:</strong> Real-time communication, WebSockets, Node.js, Express, front-end development with JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Zomato Clone</b></h5>
+                            <p class="card-text">A clone of the Zomato app where users can search for restaurants, read reviews, and view restaurant details. Integrated with a RESTful API to display dynamic content. Built using React for the front-end and Node.js for the back-end.</p>
+                            <p><strong>Skills Demonstrated:</strong> React, API integration, UI/UX design, Node.js, Express, CRUD operations.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Weather API</b></h5>
+                            <p class="card-text">A weather app that fetches data from an external API to display real-time weather information based on a user's location. Built using HTML, CSS, JavaScript, and a weather API (such as OpenWeather API).</p>
+                            <p><strong>Skills Demonstrated:</strong> API integration, asynchronous JavaScript, data parsing, front-end development.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Blog Platform</b></h5>
+                            <p class="card-text">A simple blog platform where users can create, edit, and delete posts. Includes a login system for secure access and user authentication. Built using Node.js, Express, and MongoDB for backend, and HTML/CSS for front-end.</p>
+                            <p><strong>Skills Demonstrated:</strong> Full-stack development, Node.js, Express, MongoDB, user authentication, CRUD operations.</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+
+    
+      
+      <section id="contact" class="contact">
+        <div class="form">
+            <h4><b>Send Message</b></h4><br>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required><br><br>
+                <input type="email" id="email" placeholder="Email" required><br><br>
+                <input type="text" id="subject" placeholder="Subject" required><br><br>
+                <textarea id="message" cols="30" rows="3" placeholder="Message" required></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="thank-you-message" id="thankYouMessage">Thank you for contacting me! I’ll get back to you shortly.</div>
+        </div>
+        <div class="socialContent">
+            <h4><b>Get in touch</b></h4><br>
+            <h5>Thank you for considering reaching out to me. Please feel free to connect via any of the following means:</h5>
+            <p><span class="material-symbols-outlined">pin_drop</span> Hyderabad, Telangana</p>
+            <p><span class="material-symbols-outlined">deskphone</span> 7386112383</p>
+            <p><span class="material-symbols-outlined">mail</span> sheelaboorla7@gmail.com</p>
+            <div class="socialMedia">
+                <a href="https://github.com/zsheela" class="logo"><img src="./images/git.png" alt="GitHub" class="soc"></a>
+                <a href="linkedin.com/in/sheela-boorla-86a61a225" class="logo"><img src="./images/linkdin.jfif" alt="LinkedIn" class="soc"></a>
+            </div>
+        </div>
+    </section>
+</main>
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault(); 
+      
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const subject = document.getElementById('subject').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (name && email && subject && message) {
+          document.getElementById('thankYouMessage').style.display = 'block';
+
+          document.getElementById('contactForm').reset();
+
+          setTimeout(function() {
+              document.getElementById('thankYouMessage').style.display = 'none';
+          }, 5000); 
+      } else {
+          alert('Please fill in all fields.');
+      }
+  });
+</script>
+</body>
+</html>
+
+
+            
+            
+
+
+            
+
+
+            
+
+            
+ 
+                 
+    
